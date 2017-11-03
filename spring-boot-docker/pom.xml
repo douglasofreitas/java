@@ -48,4 +48,17 @@
         </plugins>
     </build>
 
+    <!-- Optional to build and push image docker in Dockerhub >
+    <executions>
+        <execution>
+            <id>default</id>
+            <phase>install</phase>
+            <goals>
+                <goal>build</goal>
+                <goal>push</goal>
+            </goals>
+        </execution>
+    </executions>
+    <!-- End Dockerhub push automatically -->
+
 </project>
